@@ -1,24 +1,25 @@
 <template>
-  <div class="app-header">
-    <h1>Memo</h1>
+  <div class="memo-header">
+    <a herf="#">Memo</a>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'AppHeader',
+  name: "AppHeader"
 };
 </script>
 
 <style scoped>
-.app-header{
-    overflow: hidden;
-    padding: 52px 0 27px;
+.memo-header {
+  text-align: center;
+  overflow: hidden;
+  padding: 52px 0 27px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
 }
-.app-header h1{
-    float:left;
-    font-size: 24px;
-    text-align: center;
-}
-
 </style>
