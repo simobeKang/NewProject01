@@ -26,7 +26,7 @@ NewProject01
 // 既にnpm installは済みで想定
 1. cd into the project directory 
 2. type "npm run dev" in your terminal to start the app
-3. cd into the cd RESTful-api-server directory 
+3. cd into the RESTful-api-server directory 
 4. npm run dev
 3. You're good to go!
 </pre>
